@@ -10,16 +10,15 @@ parent: Getting Started
 	<div class="col-sm-10 col-sm-offset-1">
 		<h2 class="body-font">Installing the framework</h2>
 		<p class="lead">
-			The GUI has some requirements to function correctly which are listed below. Please also have a look at the index.html page within your
-			downloaded blend archive. It details all of the requiremnts specifically to your blend.
+			Following these directions will make sure your GUI project functions correctly. For info specific to your GUI blend, check the index.html page that
+			you'll find in your download.
 		</p>
 	</div>
 
-
 	<div class="col-sm-7 col-sm-offset-2">
-		<h3 class="body-font">An entire empty page</h3>
+		<h3 class="body-font">Start with an empty page</h3>
 		<p>
-			The code below shows an entire GUI page with everything installed. Let's go through each part individually.
+			The code below shows a blank GUI page with everything installed. Let's go through each part individually.
 		</p>
 	</div>
 
@@ -95,9 +94,9 @@ parent: Getting Started
 
 
 	<div class="col-sm-7 col-sm-offset-2">
-		<h3 class="body-font">First: The HTML5 boilderplate</h3>
+		<h3 class="body-font">1. HTML5 boilerplate</h3>
 		<p>
-			The GUI requires and heavily relies on the commenly known HTML5 boilerplate and needs to be on the very top of your document.
+			The HTML5 boilerplate is required when developing with the GUI, it is heavily relied upon and needs to be at the very top of your document.
 		</p>
 	</div>
 
@@ -131,11 +130,11 @@ parent: Getting Started
 
 
 	<div class="col-sm-7 col-sm-offset-2">
-		<h3 class="body-font">The head</h3>
+		<h3 class="body-font">2. The head</h3>
 		<p>
-			The head element includes encoding and viewport tags as well as the grunticon scripts. The second script is to remove the no-js class and replace it with
+			The head element includes encoding, viewport tags as well as the grunticon scripts. The second script is to remove the no-js class and replace it with
 			the js class to make sure javascript is running. It is included as vanilla js in the head to avoid FOUT.
-			The stylsheet of all styles should be included before the IE8 scripts so that those can parse them and hence help IE understand them.
+			All stylesheets should be included before the IE8 scripts, this will allow them to be parsed and help IE understand them.
 		</p>
 	</div>
 
@@ -186,10 +185,10 @@ parent: Getting Started
 
 
 	<div class="col-sm-7 col-sm-offset-2">
-		<h3 class="body-font">Your body and js script</h3>
+		<h3 class="body-font">3. Your body and js script</h3>
 		<p>
 			Next comes the body tag which should include a message for those who have js disabled followed by your content.
-			At the very end of your content, right before you close the body we include the javascript. Concatinate all your own scripts into the bottom of the GUI
+			At the very end of your content, right before you close the body we include the javascript. Concatenate all your own scripts into the bottom of the GUI
 			script.
 		</p>
 	</div>
@@ -218,6 +217,11 @@ parent: Getting Started
 		{% capture JS %}{% endcapture %}
 
 		{% include exampleBox.liquid %}
+	</div>
+
+
+	<div class="col-sm-7 col-sm-offset-2">
+		<h3 class="body-font">Go forth and create.</h3>
 	</div>
 
 </div>
